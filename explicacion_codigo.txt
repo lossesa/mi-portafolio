@@ -1,0 +1,9 @@
+¿Que es una rama en Git?
+
+Línea de tiempo paralela dentro de tu proyecto donde puedes hacer cambios sin afectar el código principal hasta que decidas unirlos.
+
+Rama main --> Rama principal donde quedaria la versión lista para desplegar. Codigo que ya fue revisado y probado.
+
+Rama develop --> Rama donde se hace el deasarrollo activo. Lo que se haga aqui no afecta al main hasta que se decidan unir. 
+
+Uso de merge --> Se usaria para pasar los cambios de la rama develop a main.
