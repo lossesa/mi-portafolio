@@ -1,8 +1,8 @@
 
-*{
+body{
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: #CCD6F6;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #E6EBFB;
 }
 
 /* Header (nav) */
@@ -13,6 +13,8 @@
     align-items: center;
     /* padding: 0.5rem 2rem; */
     padding: 0 100px ;
+    background-color: #0A192F;
+    color: #E6EBFB;
 }
 
 .nav_container h1{
@@ -28,8 +30,8 @@
 
 .nav_items a{
     text-decoration: none;
-    color: black;
     font-size: 20px;
+    color: #E6EBFB;
 }
 
 .nav_items a:hover{
@@ -39,22 +41,22 @@
 
 /* Header (home) */
 .header_home {
+    max-width: 900px;
+    margin: 0 auto;
     height: 400px;
-    padding: 100px 100px;
+    padding: 100px 0;
 }
 
 .header_home h1{
-    padding: 20px 0;
     font-size: 60px;
 }
 
 .header_home h2{
-    padding: 10px 0;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .header_home p{
-    padding: 20px 0;
+    font-size: 20px;
 }
 
 
@@ -70,49 +72,159 @@
 
 
 .about_me_img img{
-    height: 400px;
+    height: 500px;
     border-radius: 15px;
 }
 
 .about_me_info{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
 }
 
 .about_me_container h2{
-    padding: 15px 0;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
+    margin: 5px 0;
 }
+
+
+table{
+    border-left: 1px solid #6B7893;
+}
+
+th,td{
+    padding: 10px;
+    text-align: left;
+}
+
 
 
 /* Projects */
 .projects_container{
-    max-width: 900px;
-    margin: 0 auto;
     margin-top: 100px;
+    background-color: #0A192F;
+    height: 430px;
+    color: white;
 }
 
 .project_title{
     font-size: 30px;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .container{
     display: flex;
     align-items: flex-start;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .projects{
-    margin: 20px;
-    padding: 12px;
-    border: 1px solid #6B7893;
+    margin: 30px;
+    padding: 8px;
+    border-left: 1px solid #CCD6F6;
 }
 
 .projects h2{
-    padding: 10px 0;
+    padding: 0 20px;
     font-weight: 300;
+    margin: 0;
 }
+
+.projects p{
+    padding: 20px 20px;
+    margin: 0;
+}
+
+
+/* Seccion skills */
+.skills{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.skills h2{
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.my_skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    margin: 0 20px;
+    background-color: #6B7893;
+    border-radius: 10px;
+    padding: 20px;  
+    color: #E6EBFB;
+}
+
+.card_title{
+    border-left: 1px solid #FFF;
+    padding: 12px;
+}
+
+
+/* Seccion contact */
+.contact{
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 100px;
+}
+
+.contact h2{
+    padding: 20px 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+input{
+    display: block;
+    width: 50%;
+    height: 50px;
+    margin: 15px;
+    border: none;
+    border-left: 1px solid #000;
+}
+
+.boton{
+    background-color: #6B7893;
+    color: white;
+    width: 20%;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+textarea{
+    width: 50%;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #000;
+    height: 200px;
+    margin-top: 100px;
+}
+
+footer h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+
+
+
 
