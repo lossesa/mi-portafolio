@@ -16,5 +16,5 @@ La pagina web cuenta con la siguiente estructura: Un header (nav y home), una se
 5. Estilos:
 Finalmente, se agregaron diveros estilos para obtener una pagina web visualmente atractiva y facil de interpretar.
 
-6. LINK: 
+6. LINK: https://lossesa.github.io/mi-portafolio/
 
