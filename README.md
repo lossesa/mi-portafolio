@@ -14,4 +14,7 @@ Se crearon carpetas como img e icons para las imagenes y los iconos utilizados e
 La pagina web cuenta con la siguiente estructura: Un header (nav y home), una seccion sobre mi (Con datos personales y educación), una sección de proyectos, una sección de mis habilidades, una sección de contacto (Formulario y redes sociales) y finalemnte un footer al final.
 
 5. Estilos:
-Finalmente, se agregaron diveros estilos para obtener una pagina web visualmente atractiva y facil de interpretar.  
+Finalmente, se agregaron diveros estilos para obtener una pagina web visualmente atractiva y facil de interpretar.
+
+6. LINK: 
+
